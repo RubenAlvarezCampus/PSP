@@ -1,0 +1,16 @@
+package Actividad_2_3_SincronizarHilos;
+
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Stack;
+
+public class Ejercicio3_Buffer {
+	private Stack<E> pila;
+
+	public Ejercicio3_Buffer() {
+		super();
+		pila = new LinkedList<String>();
+	}
+	
+	
+}

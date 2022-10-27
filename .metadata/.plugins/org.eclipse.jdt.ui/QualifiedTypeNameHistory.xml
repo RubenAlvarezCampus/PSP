@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.ProcessBuilder"/>
+    <fullyQualifiedTypeName name="java.awt.im.InputContext"/>
+    <fullyQualifiedTypeName name="java.io.InputStream"/>
+    <fullyQualifiedTypeName name="java.lang.Process"/>
+    <fullyQualifiedTypeName name="java.nio.Buffer"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+    <fullyQualifiedTypeName name="CreacionHilos.Hilo"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="Ejemplo1.Corredor"/>
+    <fullyQualifiedTypeName name="java.util.Currency"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="Actividad_2_2_MultiHilo.Ejercicio2_Cliente"/>
+    <fullyQualifiedTypeName name="Actividad_2_2_MultiHilo.Ejercicio2_Cajera"/>
+    <fullyQualifiedTypeName name="javax.management.loading.PrivateClassLoader"/>
+    <fullyQualifiedTypeName name="Actividad_2_3_SincronizarHilos.Actividad1_Colecta"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.ThreadLocalRandom"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="Actividad_2_3_SincronizarHilos.Ejercicio1_Colecta"/>
+    <fullyQualifiedTypeName name="Actividad_2_3_SincronizarHilos.Ejercicio1_HilosColectores"/>
+    <fullyQualifiedTypeName name="java.util.Queue"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="javax.xml.stream.util.EventReaderDelegate"/>
+    <fullyQualifiedTypeName name="Actividad_2_3_SincronizarHilos.Ejercicio2_Recolectores"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="Actividad_2_3_SincronizarHilos.Ejercicio2_Consumidor"/>
+    <fullyQualifiedTypeName name="java.util.Stack"/>
+</qualifiedTypeNameHistroy>

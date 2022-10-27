@@ -1,0 +1,7 @@
+package Actividad_2_3_SincronizarHilos;
+
+import java.util.Queue;
+
+public class Ejercicio3_Buffer {
+	private Queue<String> pila;
+}

@@ -1,0 +1,17 @@
+package Teoria;
+
+import java.io.IOException;
+
+public class EjemploProcessBuilder {
+	public static void main(String[] args) {
+		boolean salir = false;
+		ProcessBuilder proceso = new ProcessBuilder("Calc");
+		while (salir==true) {
+			try {
+				proceso.start();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
+	}
+}

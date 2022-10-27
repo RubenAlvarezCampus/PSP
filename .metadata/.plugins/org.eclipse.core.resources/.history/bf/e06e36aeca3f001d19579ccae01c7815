@@ -1,0 +1,9 @@
+package Teoria;
+
+import java.io.IOException;
+
+public class EjemploProcessBuilder {
+	public static void main(String[] args) {
+		ProcessBuilder proceso = new ProcessBuilder("Google Crhome");
+	}
+}

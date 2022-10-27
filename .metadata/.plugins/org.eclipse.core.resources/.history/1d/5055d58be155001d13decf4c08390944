@@ -1,0 +1,21 @@
+package Actividad_2_3_SincronizarHilos;
+
+public class Ejercicio2_Colecta {
+private int colecta = 0;
+	
+	synchronized public int getColecta() {
+		return colecta;
+	}
+	
+	synchronized public void incrementa(int incremento,String nombre) {
+		this.colecta+=incremento;
+		System.out.println("Hilo "+nombre+", ha añadido: "+incremento+", TOTAL="+this.colecta);
+		notify();
+	}
+	
+	synchronized public void decrementar(int decremento,String nombre) {
+		this.colecta-=decremento;
+		System.out.println("Hilo "+nombre+", ha reducido en: "+decremento+", TOTAL="+this.colecta);
+		notify();
+	}
+}
