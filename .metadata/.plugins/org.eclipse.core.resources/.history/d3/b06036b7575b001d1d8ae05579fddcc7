@@ -1,0 +1,37 @@
+package Actividad_2_3_SincronizarHilos;
+
+import java.util.concurrent.ThreadLocalRandom;
+
+public class Ejercicio4_NumeroOculto {
+	/*Atributos*/
+	private int jugadores;
+	private int turno;
+	private int numero_adivinar;
+	private boolean juego;
+	
+	/*Constructor*/
+	public Ejercicio4_NumeroOculto(int jugadores, int turno) {
+		super();
+		this.jugadores = jugadores;
+		this.turno = 1;
+		this.numero_adivinar = ThreadLocalRandom.current().nextInt(1,21);
+		this.juego=true;
+	}
+	
+	/*Metodos*/
+	public void ver_turno() {
+		System.out.println("Estamos en el turno: "+turno);
+	}
+	
+	public void ver_juego() {
+		if (this.juego==true) {
+			System.out.println("El juego sigue en curso");
+			return;
+		}
+		System.out.println("El juego ha terminado");
+	}
+	
+	public void a( ) {
+		
+	}
+}

@@ -1,0 +1,21 @@
+package Actividad_2_3_SincronizarHilos;
+
+import java.util.concurrent.ThreadLocalRandom;
+
+public class Ejercicio3_Productor_circunferencia extends Thread{
+	
+	private Ejercicio3_lista pila;
+	
+	public Ejercicio3_Productor_circunferencia(Ejercicio3_lista lista) {
+		super();
+		this.lista = lista;
+		this.start();
+	}
+
+	@Override
+	public void run() {
+		int num = ThreadLocalRandom.current().nextInt(1,51);
+		Ejercicio3_Circunferencia circunferencio = new Ejercicio3_Circunferencia(num);
+		
+	}
+}

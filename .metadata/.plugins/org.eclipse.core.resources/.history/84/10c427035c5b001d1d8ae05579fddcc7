@@ -1,0 +1,67 @@
+package Actividad_2_3_SincronizarHilos;
+
+import java.util.concurrent.ThreadLocalRandom;
+
+public class Ejercicio4_NumeroOculto {
+	/*Atributos*/
+	private int jugadores;
+	private int turno;
+	private int numero_adivinar;
+	private boolean juego;
+	
+	/*Constructor*/
+	public Ejercicio4_NumeroOculto(int jugadores) {
+		super();
+		this.jugadores = jugadores;
+		this.turno = 1;
+		this.numero_adivinar = ThreadLocalRandom.current().nextInt(1,21);
+		this.juego=true;
+	}
+	
+	/*Get y set*/
+	public void ver_turno() {
+		System.out.println("Estamos en el turno: "+this.turno);
+	}
+	
+	public int getTurno() {
+		return turno;
+	}
+
+	/*Metodos*/
+	synchronized public void setTurno(int turno) {
+		this.turno = turno;
+	}
+
+	synchronized public boolean ver_juego() {
+		if (this.juego==true) {
+			System.out.println("El juego sigue en curso");
+			notifyAll();
+			return true;
+		}
+		System.out.println("El juego ha terminado");
+		return false;
+	}
+	
+	synchronized void jugada(int id,int numero) {
+		if (this.turno==this.id) {
+			int numero = ThreadLocalRandom.current().nextInt(1,21);
+			numero_oculto.jugada(this.id,numero);
+		}
+		else {
+			try {
+				wait();
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		}
+		
+		ver_turno();
+		System.out.println("El jugador "+id+" ha dicho "+numero);
+		if (this.turno==4) {
+			turno=1;
+		} else {
+			this.turno++;
+		}
+	}
+	
+}

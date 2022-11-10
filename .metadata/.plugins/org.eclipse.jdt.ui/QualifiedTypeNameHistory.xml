@@ -10,13 +10,11 @@
     <fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.io.File"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
     <fullyQualifiedTypeName name="CreacionHilos.Hilo"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="Ejemplo1.Corredor"/>
     <fullyQualifiedTypeName name="java.util.Currency"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
@@ -26,8 +24,6 @@
     <fullyQualifiedTypeName name="Actividad_2_2_MultiHilo.Ejercicio2_Cajera"/>
     <fullyQualifiedTypeName name="javax.management.loading.PrivateClassLoader"/>
     <fullyQualifiedTypeName name="Actividad_2_3_SincronizarHilos.Actividad1_Colecta"/>
-    <fullyQualifiedTypeName name="java.util.concurrent.ThreadLocalRandom"/>
-    <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="Actividad_2_3_SincronizarHilos.Ejercicio1_Colecta"/>
     <fullyQualifiedTypeName name="Actividad_2_3_SincronizarHilos.Ejercicio1_HilosColectores"/>
     <fullyQualifiedTypeName name="java.util.Queue"/>
@@ -37,4 +33,17 @@
     <fullyQualifiedTypeName name="java.lang.Runnable"/>
     <fullyQualifiedTypeName name="Actividad_2_3_SincronizarHilos.Ejercicio2_Consumidor"/>
     <fullyQualifiedTypeName name="java.util.Stack"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="Actividad_2_3_SincronizarHilos.Ejercicio3_Circunferencia"/>
+    <fullyQualifiedTypeName name="Actividad_2_3_SincronizarHilos.Ejercicio3_lista"/>
+    <fullyQualifiedTypeName name="Actividad_2_3_SincronizarHilos.Ejercicio3"/>
+    <fullyQualifiedTypeName name="Actividad_2_3_SincronizarHilos.Ejercicio3_pila"/>
+    <fullyQualifiedTypeName name="Actividad_2_3_SincronizarHilos.Ejercicio3_Productor"/>
+    <fullyQualifiedTypeName name="Actividad_2_3_SincronizarHilos.Ejercicio3_Consumidora"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.ThreadLocalRandom"/>
+    <fullyQualifiedTypeName name="Actividad_2_3_SincronizarHilos.Ejercicio4_NumeroOculto"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="Actividad_2_3_SincronizarHilos.Ejercicio4_Jugador"/>
 </qualifiedTypeNameHistroy>

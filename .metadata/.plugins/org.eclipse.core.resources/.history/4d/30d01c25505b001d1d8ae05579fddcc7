@@ -1,0 +1,18 @@
+package Actividad_2_3_SincronizarHilos;
+
+public class Ejercicio3_Productor_circunferencia extends Thread{
+	
+	public Ejercicio3_Productor_circunferencia() {
+		super();
+		this.start();
+	}
+
+	@Override
+	public void run() {
+		
+	}
+
+	public static void mostar() {
+		
+	}
+}
