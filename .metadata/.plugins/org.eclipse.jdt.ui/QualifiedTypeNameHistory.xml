@@ -36,7 +36,6 @@
     <fullyQualifiedTypeName name="Actividad_2_3_SincronizarHilos.Ejercicio3_Productor"/>
     <fullyQualifiedTypeName name="Actividad_2_3_SincronizarHilos.Ejercicio3_Consumidora"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
-    <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="java.util.concurrent.ThreadLocalRandom"/>
     <fullyQualifiedTypeName name="Actividad_2_3_SincronizarHilos.Ejercicio4_NumeroOculto"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
@@ -44,7 +43,6 @@
     <fullyQualifiedTypeName name="InetAddress"/>
     <fullyQualifiedTypeName name="java.net.InetAddress"/>
     <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
-    <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
     <fullyQualifiedTypeName name="Actividad_3_2_Objetos_Sockets.Ejercicio_1_Servidor"/>
@@ -54,4 +52,6 @@
     <fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
     <fullyQualifiedTypeName name="java.lang.Runnable"/>
     <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
 </qualifiedTypeNameHistroy>
