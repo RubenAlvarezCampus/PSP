@@ -38,6 +38,9 @@ public class HiloServidor extends Thread{
 					//Cerramos todo
 					entrada.close();
 					enchufeAlJuego.close();
+					System.out.println("");
+					System.out.println("Cliente desconectado");
+					return;
 				}
 				else {
 					juegos = Datos.AccesoDatos.Consulta(consulta);
@@ -51,6 +54,5 @@ public class HiloServidor extends Thread{
 			System.out.println("");
 			System.out.println("Cliente desconectado");
 		}
-
 	}
 }

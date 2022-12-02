@@ -2,7 +2,11 @@
 <section name="Workbench">
 	<section name="ImportExportAction">
 		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.ZipFile"/>
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.e4.ui.importer.wizard"/>
 		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
 			<item value="org.eclipse.ui.Basic"/>
 		</list>
 	</section>
@@ -10,6 +14,9 @@
 		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
 		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
 		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\campusfp\Desktop\DAM 2ª\PSP\Hito Grupal\PSP_HG _RubenAlvarez_AndresSanchez.zip"/>
+			<item value="C:\Users\campusfp\Desktop\DAM 2ª\PSP\Hito Individual\PSP_Actividad_2_Ruben_AlvarezSenovilla.zip"/>
+			<item value="C:\Users\campusfp\Desktop\DAM 2ª\PSP\Hito Individual\PSP_Actividad_1_Ruben_AlvarezSenovilla.zip"/>
 			<item value="C:\Users\campusfp\Desktop\DAM 2ª\PSP\Recursividad\Recursividad_Rubén_Álvarez_Senovilla.zip"/>
 		</list>
 	</section>

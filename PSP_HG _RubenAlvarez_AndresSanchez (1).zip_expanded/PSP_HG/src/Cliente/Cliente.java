@@ -30,7 +30,7 @@ public class Cliente {
 			System.out.println("Comunicación establecida con el servidor");
 			InputStream entrada = cliente.getInputStream();
 			OutputStream salida = cliente.getOutputStream();
-			int opcion;
+			String opcion;
 			
 			do {
 				//Menu
@@ -42,43 +42,46 @@ public class Cliente {
 				System.out.println("5 - Salir");
 				System.out.println("");
 				System.out.print("Elige una opción: "); 
-				opcion = Integer.parseInt(input.nextLine());
+				opcion = input.nextLine();
 				System.out.println("");
 				
 				String consulta = "";
 				
 				// Opcion elegida por el cliente
 				switch (opcion) {
-					case 1:
+					case "1":
 						//Mostrar todo
 						consulta="Todo-Valor";
 						break;
-					case 2:
+					case "2":
 						//ID
 						System.out.print("Dime el ID del juego: ");
 						consulta = "ID-"+input.nextLine();
 						break;
-					case 3:
+					case "3":
 						//Genero
 						System.out.print("Dime el genero del juego: ");
 						consulta = "Genero-"+input.nextLine();
 						break;
-					case 4:
+					case "4":
 						//Juegos Stock
 						consulta = "Stock-Valor";
-					case 5:
+						break;
+					case "5":
+						consulta = "salir";
+						salida.write(consulta.getBytes());
 						break;
 					default:
 						System.out.println("**Opción no valida**");
 				}		
 				
-				if (consulta.length() != 0) {
+				if (consulta.length() != 0 && consulta!="salir") {
 					salida.write(consulta.getBytes());
 					
 					ObjectInputStream inOb = new ObjectInputStream(cliente.getInputStream());
 					ArrayList<Juego> juegos = (ArrayList<Juego>) inOb. readObject(); //recibiendo un objeto
 					
-					if (juegos == null) {
+					if (juegos.isEmpty()) {
 						System.out.println("no hay ningun juego con esas condición");
 					}
 					else {
@@ -88,7 +91,7 @@ public class Cliente {
 					}
 				}
 				
-			} while (opcion!=5);
+			} while (!opcion.equals("5"));
 			
 			//Cerramos todo
 			salida.close();
@@ -102,7 +105,7 @@ public class Cliente {
 			
 		} catch (IOException e) {
 			System.out.println("Error de E/S");
-			System.out.println(e.getMessage());
+			System.out.println(e);
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
 		}

@@ -14,14 +14,19 @@ public class AccesoDatos {
 		
 		String[] consultas = consulta.split("-");
 		
-		if (consultas[0].equalsIgnoreCase("ID")) {	
+		if (consultas[0].equalsIgnoreCase("Todo")) {	
 			for (Juego juego : juegos) {
-				if (Integer.parseInt(consultas[1]) == juego.getId()) {
+				resultados.add(juego);
+			}
+		}
+		else if (consultas[0].equalsIgnoreCase("ID") && consultas.length==2) {	
+			for (Juego juego : juegos) {
+				if (consultas[1].equals(String.valueOf(juego.getId()))) {
 					resultados.add(juego);
 				}	
 			}
 		}
-		else if (consultas[0].equalsIgnoreCase("Genero")) {	
+		else if (consultas[0].equalsIgnoreCase("Genero") && consultas.length==2) {	
 			for (Juego juego : juegos) {
 				if (consultas[1].equalsIgnoreCase(juego.getGenero())) {
 					resultados.add(juego);
@@ -34,10 +39,7 @@ public class AccesoDatos {
 					resultados.add(juego);
 				}	
 			}
-		} else {
-			
-		}
-		
+		} 
 		return resultados;
 	}
 	

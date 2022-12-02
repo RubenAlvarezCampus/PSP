@@ -7,6 +7,7 @@ public class BufferExamenes {
 	public BufferExamenes() {
 		colaExamenes = new LinkedList<String>();
 	}
+	
 	public synchronized void fabricarNuevoExamen(String codigo) {
 		// Añade el código pasado como argumento a la cola y libera el hilo que está intentando consumir
 		// un nuevo examen.
