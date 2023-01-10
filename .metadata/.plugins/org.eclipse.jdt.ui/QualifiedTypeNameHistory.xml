@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
-    <fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
-    <fullyQualifiedTypeName name="java.io.File"/>
-    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
-    <fullyQualifiedTypeName name="CreacionHilos.Hilo"/>
-    <fullyQualifiedTypeName name="Ejemplo1.Corredor"/>
-    <fullyQualifiedTypeName name="java.util.Currency"/>
-    <fullyQualifiedTypeName name="java.util.Random"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="Actividad_2_2_MultiHilo.Ejercicio2_Cliente"/>
     <fullyQualifiedTypeName name="Actividad_2_2_MultiHilo.Ejercicio2_Cajera"/>
@@ -33,7 +23,6 @@
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="java.util.concurrent.ThreadLocalRandom"/>
     <fullyQualifiedTypeName name="Actividad_2_3_SincronizarHilos.Ejercicio4_NumeroOculto"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="Actividad_2_3_SincronizarHilos.Ejercicio4_Jugador"/>
     <fullyQualifiedTypeName name="InetAddress"/>
     <fullyQualifiedTypeName name="java.net.InetAddress"/>
@@ -44,20 +33,31 @@
     <fullyQualifiedTypeName name="Actividad_3_2_Objetos_Sockets.Ejercicio_1_Persona"/>
     <fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
     <fullyQualifiedTypeName name="java.lang.Runnable"/>
-    <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="java.sql.Connection"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="com.csvreader.CsvReader"/>
     <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
-    <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="AccesoDatos.Csv"/>
     <fullyQualifiedTypeName name="java.io.Serializable"/>
     <fullyQualifiedTypeName name="AccesoDatos.Juego"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="servidor.HiloServidor"/>
     <fullyQualifiedTypeName name="java.lang.Thread.State"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="AccesoDatos.AccesoDatos"/>
     <fullyQualifiedTypeName name="Datos.AccesoDatos"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="Ejercicio_2.Libro"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="Ejercicio_2.Biblioteca"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="org.apache.commons.net.ftp.FTPClient"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+    <fullyQualifiedTypeName name="org.apache.commons.net.ftp.FTP"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="org.apache.commons.net.ftp.FTPFile"/>
 </qualifiedTypeNameHistroy>

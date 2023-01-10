@@ -1,0 +1,1 @@
+El segundo argumento no es un entero
