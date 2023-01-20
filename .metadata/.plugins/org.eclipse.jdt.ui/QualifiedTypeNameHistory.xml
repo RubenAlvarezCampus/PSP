@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="Actividad_2_2_MultiHilo.Ejercicio2_Cliente"/>
     <fullyQualifiedTypeName name="Actividad_2_2_MultiHilo.Ejercicio2_Cajera"/>
     <fullyQualifiedTypeName name="javax.management.loading.PrivateClassLoader"/>
@@ -60,4 +59,5 @@
     <fullyQualifiedTypeName name="org.apache.commons.net.ftp.FTP"/>
     <fullyQualifiedTypeName name="java.io.FileInputStream"/>
     <fullyQualifiedTypeName name="org.apache.commons.net.ftp.FTPFile"/>
+    <fullyQualifiedTypeName name="Utilidades"/>
 </qualifiedTypeNameHistroy>
