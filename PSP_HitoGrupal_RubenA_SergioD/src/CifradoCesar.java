@@ -15,6 +15,7 @@ public class CifradoCesar {
 			case 1: {
 				mensaje = Utilidades.pedirTexto("Mensaje para cifrar: ");
 				break;
+				
 			}
 			case 2: {
 
