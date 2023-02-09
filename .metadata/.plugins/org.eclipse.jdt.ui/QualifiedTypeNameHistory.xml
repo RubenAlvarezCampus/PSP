@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="Actividad_2_3_SincronizarHilos.Ejercicio3_Productor"/>
-    <fullyQualifiedTypeName name="Actividad_2_3_SincronizarHilos.Ejercicio3_Consumidora"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="java.util.concurrent.ThreadLocalRandom"/>
     <fullyQualifiedTypeName name="Actividad_2_3_SincronizarHilos.Ejercicio4_NumeroOculto"/>
@@ -49,7 +47,6 @@
     <fullyQualifiedTypeName name="Actividad_4_3_Java_RMI.MusicalInterfaceRMI"/>
     <fullyQualifiedTypeName name="java.lang.module.ResolvedModule"/>
     <fullyQualifiedTypeName name="Actividad_4_3_Java_RMI.MusicalRMI"/>
-    <fullyQualifiedTypeName name="Utilidades.Utilidades"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="Actividad_4_3_Java_RMI.Cancion"/>
     <fullyQualifiedTypeName name="Servidor.MusicaRMIProductor"/>
@@ -60,4 +57,7 @@
     <fullyQualifiedTypeName name="Servidor.MusicaInterfazProductor"/>
     <fullyQualifiedTypeName name="Servidor.MusicalInterfaceRMI"/>
     <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="Actividad_5_2_Ejercicio_2.Agenda"/>
+    <fullyQualifiedTypeName name="Actividad_5_2_Ejercicio_2.Contacto"/>
+    <fullyQualifiedTypeName name="Utilidades.Utilidades"/>
 </qualifiedTypeNameHistroy>
