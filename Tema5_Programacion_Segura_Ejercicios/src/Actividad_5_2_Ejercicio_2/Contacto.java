@@ -36,7 +36,7 @@ public class Contacto implements Serializable{
 
 	@Override
 	public String toString() {
-		return "Contacto [nombre=" + Arrays.toString(nombre) + ", telefono=" + Arrays.toString(telefono) + "]";
+		return "Contacto [nombre=" + new String(nombre) + ", telefono=" + new String(telefono) + "]";
 	}
 
 }

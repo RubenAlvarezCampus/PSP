@@ -23,5 +23,10 @@ public class Agenda implements Serializable{
 	public void setContactos(ArrayList<Contacto> contactos) {
 		this.contactos = contactos;
 	}
+
+	public SecretKey getClave() {
+		return clave;
+	}
+	
 	
 }
