@@ -129,4 +129,7 @@
 			<item value=".xml"/>
 		</list>
 	</section>
+	<section name="SelfEncapsulateFieldWizard">
+		<item key="GenerateJavadoc" value="false"/>
+	</section>
 </section>
